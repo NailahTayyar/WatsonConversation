@@ -2,7 +2,7 @@
 # **Basic Conversation**
 IBM Watson® Conversation is a question-and-answer system that provides a dialog interaction between the conversation system and users. This style of interaction is commonly called a chatbot.
 
-![](https://github.com/nailahDev/Watson-chatbot/blob/master/Basic-Conversation-master/views/Chatbot-tutorial-pictures/1.png)
+![](https://github.com/NailahTayyar/WatsonConversation/blob/master/views/1.png)
 
 
 # **Building the Conversation**
@@ -22,11 +22,11 @@ Make sure that you are logged in to your IBM Cloud account. Click **Catalog** an
 
 An intent is a group of examples of things that a user might say to communicate a specific goal or idea. To identify intents, start with something that a user might want and then list the ways that the user might describe it.
 
-
-**5-Create a new intent.**
+![](https://github.com/NailahTayyar/WatsonConversation/blob/master/views/2.png)
 
 For each intent, add examples to train the conversation for intent recognition.
-![](https://github.com/nailahDev/Watson-chatbot/blob/master/Basic-Conversation-master/views/Chatbot-tutorial-pictures/2.png)
+
+![](https://github.com/NailahTayyar/WatsonConversation/blob/master/views/3.png)
 
 **5-Test your intent.**
 As soon as you create an intent, you can test it by clicking Ask Watson icon in the top, right-hand side of the conversation editor.
@@ -38,7 +38,10 @@ Click Entities. On the Entities page, click Create new.
 
 Each entity definition includes a set of specific entity values that can be used to trigger different responses. Each value can have multiple synonyms that define different ways that the same value can be specified in user input.
 
-![](https://github.com/nailahDev/Watson-chatbot/blob/master/Basic-Conversation-master/views/Chatbot-tutorial-pictures/3.2.PNG)
+![](https://github.com/NailahTayyar/WatsonConversation/blob/master/views/4.png)
+
+![](https://github.com/NailahTayyar/WatsonConversation/blob/master/views/5.png)
+
 
 Create entities to represent to the application what the user wants to access.     
 Fuzzy logic is a feature that allows Watson Conversation to accept misspelled words. You can enable this feature at the entity level.
@@ -46,7 +49,7 @@ Fuzzy logic is a feature that allows Watson Conversation to accept misspelled wo
 **7-Building the Dialog**
 A dialog is made up of nodes that define steps in the conversation.
 
-![](https://github.com/nailahDev/Watson-chatbot/blob/master/Basic-Conversation-master/views/Chatbot-tutorial-pictures/3.png)
+![](https://github.com/NailahTayyar/WatsonConversation/blob/master/views/6.png)
 
 In the previous image, two dialog nodes are shown. The first node is the standard welcome message. The other node is a catch-all node named "Anything else." Dialog nodes are chained in a tree structure to create an interactive conversation with the user. The evaluation starts at the top, so the welcome node is assessed before the "Anything else" node.
 
