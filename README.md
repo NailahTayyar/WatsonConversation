@@ -85,5 +85,6 @@ write the command
 
 ```css
 cd C:\Users\Desktop\...;
+node app.js 
 
 ```
