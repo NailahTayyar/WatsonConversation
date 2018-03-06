@@ -51,31 +51,8 @@ A dialog is made up of nodes that define steps in the conversation.
 
 ![](https://github.com/NailahTayyar/WatsonConversation/blob/master/views/6.png)
 
-In the previous image, two dialog nodes are shown. The first node is the standard welcome message. The other node is a catch-all node named "Anything else." Dialog nodes are chained in a tree structure to create an interactive conversation with the user. The evaluation starts at the top, so the welcome node is assessed before the "Anything else" node.
-
-If you click the welcome node, the standard Watson response is "Hello. How can I help you?" To validate how the flow works, you can click the Ask Watson icon.
 
 
-**8-Define Greeting Node**
-
-The first node addresses greetings in a response to a query such as "hello." Click the welcome node and click Add node below
-
-![](https://github.com/nailahDev/Watson-chatbot/blob/master/Basic-Conversation-master/views/Chatbot-tutorial-pictures/4.png)
-
-A new node is added between the welcome and "Anything else" nodes.
-
-At each node level, you can expand the conversation by adding nodes. If you add nodes at the same level, the flows are parallel. Adding a child node creates a dependent track of conversation, and the conversation branches out into a tree structure.
-
-Name the new node Handle Greetings. In the If bot recognizes field, change the value to #Greetings. The number sign (#) represents a prefix for intent. The condition is triggered when the Watson natural language classifier classifies the query as a greeting intent.
-
-**9-Add a Response**
-
-![](https://github.com/nailahDev/Watson-chatbot/blob/master/Basic-Conversation-master/views/Chatbot-tutorial-pictures/5.png)
-
-The previous image also illustrates how to use the multiple responses pattern to avoid being repetitive. The bot can present different answers to the same query. You can allow the system to randomly select an answer from the list of potential responses.
-
-
-**10-Test your bot**
 
 ## Web Application Template for Watson Conversation API Demonstration
 
